@@ -1,0 +1,18 @@
+test_booking_page.py::TestBookingPage::test_verify_user_is_able_to_book_chepeast_tickets_for_BLR_to_DEL
+--------------------------------------------------------------------
+Last Page: data:,
+  Browser: chrome (108.0.5359.124)
+   Driver: chromedriver (108.0.5359.71)
+Timestamp: 1674193878  (Unix Timestamp)
+     Date: Friday, 20 January 2023
+     Time: 11:21:18 AM  (IST, UTC+05:30)
+--------------------------------------------------------------------
+Traceback: File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/unittest/case.py", line 591, in run
+    self._callTestMethod(testMethod)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/unittest/case.py", line 549, in _callTestMethod
+    method()
+  File "/Users/shankar/kabamAutomation/sprinto_assignment/tests/test_booking_page.py", line 16, in test_verify_user_is_able_to_book_chepeast_tickets_for_BLR_to_DEL
+    FlightSearchPage.search_tickets_for_BAN_DEL_week_round_trip(self,'Ban_Del_Trip')
+  File "/Users/shankar/kabamAutomation/sprinto_assignment/pages/flight_search_page.py", line 21, in search_tickets_for_BAN_DEL_week_round_trip
+    with open("data/flight_search_data.json",
+Exception: [Errno 2] No such file or directory: 'data/flight_search_data.json'
