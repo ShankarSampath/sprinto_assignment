@@ -1,0 +1,11 @@
+{
+  "Add_Traveller_details": {
+    "FirstName": "Shankar",
+    "LastName": "Meenakshi Sundaram",
+    "Gender": "Male"
+  },
+  "Add_Contact_details": {
+    "Mobile": "7373336756",
+    "Mail": "shankarsampath42@gmail.com"
+  }
+}

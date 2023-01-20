@@ -1,0 +1,27 @@
+test_booking_page.py::TestBookingPage::test_verify_user_is_able_to_book_chepeast_tickets_for_BLR_to_DEL
+--------------------------------------------------------------------
+Last Page: [WARNING! Browser Not Open!]
+  Browser: chrome (108.0.5359.124)
+   Driver: chromedriver (108.0.5359.71)
+Timestamp: 1674195008  (Unix Timestamp)
+     Date: Friday, 20 January 2023
+     Time: 11:40:08 AM  (IST, UTC+05:30)
+--------------------------------------------------------------------
+Traceback: File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/unittest/case.py", line 591, in run
+    self._callTestMethod(testMethod)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/unittest/case.py", line 549, in _callTestMethod
+    method()
+  File "/Users/shankar/kabamAutomation/sprinto_assignment/tests/test_booking_page.py", line 17, in test_verify_user_is_able_to_book_chepeast_tickets_for_BLR_to_DEL
+    FlightSelectionPage.click_on_book_now_button(self)
+  File "/Users/shankar/kabamAutomation/sprinto_assignment/pages/flight_selection_page.py", line 9, in click_on_book_now_button
+    page.click_xpath(FlightSelectionPage.BookNowButton)
+  File "/Users/shankar/kabamAutomation/sprinto_assignment/venv/lib/python3.10/site-packages/seleniumbase/fixtures/base_case.py", line 4500, in click_xpath
+    self.click(xpath, by=By.XPATH)
+  File "/Users/shankar/kabamAutomation/sprinto_assignment/venv/lib/python3.10/site-packages/seleniumbase/fixtures/base_case.py", line 232, in click
+    element = page_actions.wait_for_element_visible(
+  File "/Users/shankar/kabamAutomation/sprinto_assignment/venv/lib/python3.10/site-packages/seleniumbase/fixtures/page_actions.py", line 401, in wait_for_element_visible
+    timeout_exception(ElementNotVisibleException, message)
+  File "/Users/shankar/kabamAutomation/sprinto_assignment/venv/lib/python3.10/site-packages/seleniumbase/fixtures/page_actions.py", line 163, in timeout_exception
+    raise exception(message)
+Exception: Message: 
+ Element {//*[contains(@class,'sticky__parent')]//*[contains(@class,'button')]} was not visible after 6 seconds!
